@@ -40,12 +40,16 @@ class FerramentaGestao:
 ## 🚀 Projeto: GestorFolha - Ferramenta Desktop para RH
 ### 📌 Solução Empresarial Offline
 
-Funcionalidades-chave:
+**Funcionalidades-chave:**
 
 ✅ Cadastro centralizado de colaboradores
+
 ✅ Controle de ponto integrado
+
 ✅ Geração automática de folha pagamento
+
 ✅ Relatórios gerenciais em PDF/Excel
+
 ✅ Backup local criptografado
 
 ## 🔧 Arquitetura Técnica
@@ -73,16 +77,21 @@ graph TD
 
 **Como participar:**
 
-Clone o repositório:
+1. Clone o repositório:
 
-`git clone https://github.com/seuuser/gestorfolha-desktop.git`
+2. `git clone https://github.com/seuuser/gestorfolha-desktop.git`
 
-Veja as issues marcadas como `good first issue`
+3. Veja as issues marcadas como `good first issue`
 
-Envie um PR com suas melhorias
+4. Envie um PR com suas melhorias
 
 # 📬 Conecte-se Comigo
 
+Instagram: https://www.instagram.com/lopeswenderson.engsoft/
+
+Linkedin: https://www.linkedin.com/in/wenderson-lopes-194444359
+
+E-mail: dev.wendersonlopes@gmail.com
 
 🔍 *"Combinando precisão científica com excelência técnica para revolucionar gestão de pessoas"* 🔍
 
