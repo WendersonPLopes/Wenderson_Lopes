@@ -58,10 +58,11 @@ Funcionalidades-chave:
 
 ```mermaid
 graph LR
-    A[Start] --> B(Step 1)
-    B --> C{Condition?}
-    C -- Yes --> D[Result A]
-    C -- No --> E[Result B]
+    A[Interface PyQt] --> B(Lógica de Negócios)
+    B --> C[Banco de Dados SQLite]
+    C --> D(Módulo de Relatórios)
+    D --> E[Exportação PDF/Excel]
+    B --> F[Automação Cálculos]
 ```
 
 ## 🤝 Buscando Colaboradores!
