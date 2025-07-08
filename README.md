@@ -50,14 +50,12 @@ Funcionalidades-chave:
 
 ## 🔧 Arquitetura Técnica
 
-    ```mermaid
-    graph TD;
-        A[Interface PyQt] --> B(Lógica de Negócios);
-        B --> C[Banco de Dados SQLite];
-        C --> D(Módulo de Relatórios);
-        D --> E[Exportação PDF/Excel];
-        B --> F[Automação Cálculos];
-    ```
+           ```mermaid
+        graph LR
+            A[Começo] --> B(Processo);
+            B --> C{Decisão};
+            C -- Sim --> D(Resultado);
+            C -- Não --> E(Outro Resultado);
     
 
 ## 🤝 Buscando Colaboradores!
