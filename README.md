@@ -50,12 +50,18 @@ Funcionalidades-chave:
 
 ## 🔧 Arquitetura Técnica
 
-           ```mermaid
-        graph LR
-            A[Começo] --> B(Processo);
-            B --> C{Decisão};
-            C -- Sim --> D(Resultado);
-            C -- Não --> E(Outro Resultado);
+        2.  **Choose a diagram type:** Mermaid supports various diagram types, including flowcharts, sequence diagrams, class diagrams, and more [1, 6, 11].
+3.  **Write the syntax:** Refer to the Mermaid documentation for the specific syntax for the chosen diagram type [1, 5].
+4.  **Render the diagram:** Many platforms, like GitHub and {Link: ReadMe https://docs.readme.com/main/docs/creating-mermaid-diagrams}, automatically render Mermaid syntax within these code blocks [1, 2].
+
+**Example: Flowchart**
+
+```mermaid
+graph LR
+    A[Start] --> B(Step 1)
+    B --> C{Condition?}
+    C -- Yes --> D[Result A]
+    C -- No --> E[Result B]
     
 
 ## 🤝 Buscando Colaboradores!
