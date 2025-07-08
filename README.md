@@ -62,7 +62,7 @@ graph LR
     B --> C{Condition?}
     C -- Yes --> D[Result A]
     C -- No --> E[Result B]
-    
+```
 
 ## 🤝 Buscando Colaboradores!
 
